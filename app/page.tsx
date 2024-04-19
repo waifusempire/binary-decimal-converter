@@ -51,7 +51,7 @@ function DecimalToBinary() {
             <AlertDialogTitle>Steps</AlertDialogTitle>
             <AlertDialogDescription>The steps that were taken to get the binary number from decimal "{decimal}"</AlertDialogDescription>
           </AlertDialogHeader>
-          <div className="flex flex-col justify-center max-h-60 overflow-y-scroll space-y-3 ring-gray-500/50 ring-1 rounded-md p-2">
+          <div className="flex flex-col max-h-60 overflow-y-scroll space-y-3 ring-gray-500/50 ring-1 rounded-md p-2">
             {steps?.map(step => <p>{step}</p>)}
           </div>
           <p>{finalStep}</p>
@@ -97,7 +97,7 @@ function BinaryToDecimal() {
             <AlertDialogTitle>Steps</AlertDialogTitle>
             <AlertDialogDescription>The steps that were taken to get the decimal number from binary "{binary}"</AlertDialogDescription>
           </AlertDialogHeader>
-          <div className="flex flex-col justify-center max-h-60 overflow-y-scroll space-y-3 ring-gray-500/50 ring-1 rounded-md p-2">
+          <div className="flex flex-col max-h-60 overflow-y-scroll space-y-3 ring-gray-500/50 ring-1 rounded-md p-2">
             {steps?.map(step => <p>{step}</p>)}
           </div>
           <p>{finalStep}</p>
